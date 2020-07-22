@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="right_menu">
+        <nav class="menu">
+          <span class="let-a">A A A</span>
+          <span class="line-a"></span>
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu-list">
+            <li>
+              <a href="#">Startseite</a>
+            </li>
+            <li>
+              <a href="#">Brillenglaser</a>
+            </li>
+            <li>
+              <a href="#">Brillenfassungen <b></b></a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#">
+                    Einstärkengläser
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Bildschirmbrillen</a>
+                </li>
+                <li>
+                  <a href="#">Gleitsichtbrillen</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Kontaktlinsen</a>
+            </li>
+            <li>
+              <a href="#">Actionen</a>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+            <li class="line"></li>
+            <li class="let">A A A</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="contact-bar">
+        <div class="container-bar">
+          <img src="./image/optiker-ellinger.svg" alt="eye" />
+          <div>
+            <b>Optik Béla Ellinger GmbH</b>
+            <p>
+              Praterstraße 30<br />
+              1020 Wien
+            </p>
+          </div>
+          <div>
+            <b>Kontaktaufnahme</b>
+            <p>
+              Telefon: 01/214 12 80 <br />
+              E-Mail:
+              <a href="mailto:office@optiker-ellinger.at"
+                >office@optiker-ellinger.at</a
+              >
+            </p>
+          </div>
+          <div>
+            <b>Öffnungszeiten</b>
+            <p><span class="day">Montag - Freitag:</span> 09:00 - 18:00 Uhr</p>
+            <p><span class="day1">Samstag:</span> 09:00 - 12:00 Uhr</p>
+          </div>
+        </div>
+      </div>
+      <div class="glasses">
+        <div class="container-glasses">
+          <div class="glasses-text">
+            <span>100% Qualität seit 1965 </span>
+            <p>– Ihr Optik-Fachgeschäft in Wien.</p>
+            <p>
+              Erstklassige Qualität bei Brillenfassungen und Brillengläsern in
+              Kombination aus Tradition und moderner Technik.
+            </p>
+            <button>
+              Jetzt <b> kostenlosen Beratungstermin</b> vereinbaren:
+              <span class="icon-tel"></span> 01/214 12 80
+            </button>
+          </div>
+          <div class="container-image">
+            <div>
+              <!-- <img src="./image/glasses.jpg" alt="glasses" /> -->
+              <img src="./image/glasses.jpg" id="slider" alt="glasses" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="delete"></div>
+      <div class="teaser">
+        <div class="teaser-container">
+          <div class="card">
+            <a>
+              <img src="./image/icon-gl-w.svg" alt="icon-gl" />
+              <span class="line-h"></span>
+              <span class="card-name">Brillengläser</span>
+              <span class="card-des">
+                Ob Sie kurzsichtig oder weitsichtig, in unserem
+                Optikerfachgeschäft erhalten Sie hochwertige Brillengläser für
+                alle Ansprüche.</span
+              >
+            </a>
+          </div>
+          <div class="card">
+            <a>
+              <img src="./image/icon-gl2-w.svg" alt="icon-gl" />
+              <span class="line-h"></span>
+              <span class="card-name">Brillengläser</span>
+              <span class="card-des">
+                Ob Sie kurzsichtig oder weitsichtig, in unserem
+                Optikerfachgeschäft erhalten Sie hochwertige Brillengläser für
+                alle Ansprüche.</span
+              >
+            </a>
+          </div>
+          <div class="card">
+            <a>
+              <img src="./image/icon-gl3-w.svg" alt="icon-gl" />
+              <span class="line-h"></span>
+              <span class="card-name">Brillengläser</span>
+              <span class="card-des">
+                Ob Sie kurzsichtig oder weitsichtig, in unserem
+                Optikerfachgeschäft erhalten Sie hochwertige Brillengläser für
+                alle Ansprüche.</span
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-container">
+          <div class="contact-us">
+            <h2>Wir haben Ihr Interesse geweckt?</h2>
+            <span>Jetzt einen Termin kostenlosen Sehtest vereinbaren!</span>
+            <span class="lines"></span>
+          </div>
+          <form>
+            <div class="form-contact-us">
+              <div class="colum1">
+                <div class="input-form">
+                  <span class="fa" aria-hidden="true"
+                    ><img src="./image/person.png" alt="person"
+                  /></span>
+                  <input class="f-input" type="text" placeholder="Name..." />
+                </div>
+                <div class="input-form">
+                  <span class="fa" aria-hidden="true">
+                    <img src="./image/email.png" alt="email" />
+                  </span>
+                  <input class="f-input" type="email" placeholder="E-mail..." />
+                </div>
+                <div class="input-form">
+                  <span class="fa" aria-hidden="true"
+                    ><img class="call" src="./image/call.png" alt="call" />
+                  </span>
+                  <input class="f-input" type="number" placeholder="Telephon" />
+                </div>
+              </div>
+              <div class="colum2">
+                <div class="input-form">
+                  <span class="fa" aria-hidden="true"
+                    ><img src="./image/date.svg" alt="date" />
+                  </span>
+                  <input class="f-input" type="text" placeholder="Date..." />
+                </div>
+                <div class="area-form">
+                  <span class="fa-a" aria-hidden="true"
+                    ><img src="./image/mail.png" alt="date" />
+                  </span>
+                  <textarea class="f-area" placeholder="Text..."></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="line-ok">
+            <div>
+              <input type="checkbox" />
+              <span
+                >Die <a href="#">Datenschutzerklärung </a>habe ich gelesen und
+                akzeptiert.</span
+              >
+            </div>
+            <button class="btn-form">Nachricht abschicken <b></b></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20521.504563514347!2d36.23491092561167!3d49.989083359268285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1595365536454!5m2!1sru!2sua"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+      <div class="contact-bar">
+        <div class="container-bar">
+          <img src="./image/optiker-ellinger.svg" alt="eye" />
+          <div>
+            <b>Optik Béla Ellinger GmbH</b>
+            <p>
+              Praterstraße 30<br />
+              1020 Wien
+            </p>
+          </div>
+          <div>
+            <b>Kontaktaufnahme</b>
+            <p>
+              Telefon: 01/214 12 80 <br />
+              E-Mail:
+              <a href="mailto:office@optiker-ellinger.at"
+                >office@optiker-ellinger.at</a
+              >
+            </p>
+          </div>
+          <div>
+            <b>Öffnungszeiten</b>
+            <p><span class="day">Montag - Freitag:</span> 09:00 - 18:00 Uhr</p>
+            <p><span class="day1">Samstag:</span> 09:00 - 12:00 Uhr</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">Anfahrt</a></li>
+          <li><a href="#">Datenschutzerklärung</a></li>
+          <li><a href="#">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
