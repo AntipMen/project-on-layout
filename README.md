@@ -11,11 +11,13 @@ You can see it here: https://antipmen.github.io/project-on-layout/
 ## Some screenshots for different devices:
 
 ### Desktop:
-![fgm](https://user-images.githubusercontent.com/58369971/88122334-0161a000-cbd1-11ea-84f6-ce26bc5bfdaf.png)
+![first-g](https://user-images.githubusercontent.com/58369971/88122336-01fa3680-cbd1-11ea-97ac-9dd009790fb3.png)
+
 
 ### Mobile: 
+![fgm](https://user-images.githubusercontent.com/58369971/88122334-0161a000-cbd1-11ea-84f6-ce26bc5bfdaf.png)
 ![fgm2](https://user-images.githubusercontent.com/58369971/88122335-0161a000-cbd1-11ea-82b3-096305e12d22.png)
-![first-g](https://user-images.githubusercontent.com/58369971/88122336-01fa3680-cbd1-11ea-97ac-9dd009790fb3.png)
+
 
 ### Desktop:
 ![card-g](https://user-images.githubusercontent.com/58369971/88122326-ff97dc80-cbd0-11ea-80af-d05938916bb4.png)
